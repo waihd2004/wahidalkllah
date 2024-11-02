@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    transition: all .3s;
+}
+
+@font-face {
+    font-family: mainFont;
+    src: url(BalooBhaijaan2-VariableFont_wght.ttf);
+}
+
+:root{
+    --main: #f1f1f1;
+    --sub: #1f1f1f;
+}
+
+html {
+    direction: ltr;
+    scroll-behavior: smooth;
+}
+
+.f-cen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.f-bet {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.f-ard {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.f-evn {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.f-col {
+    flex-direction: column;
+}
+
+.p8 {
+    padding: 8px;
+}
+.p12 {
+    padding: 12px;
+}
+.p16 {
+    padding: 16px;
+}
+.p20 {
+    padding: 20px;
+}
+.p24 {
+    padding: 24px;
+}
+.p32 {
+    padding: 32px;
+}
+.p40 {
+    padding: 40px;
+}
+
+.g8 {
+    gap: 8px;
+}
+.g12 {
+    gap: 12px;
+}
+.g16 {
+    gap: 16px;
+}
+.g20 {
+    gap: 20px;
+}
+.g24 {
+    gap: 24px;
+}
+.g32 {
+    gap: 32px;
+}
+.g40 {
+    gap: 40px;
+}
+
+.r8 {
+    border-radius: 8px;
+}
+.r12 {
+    border-radius: 12px;
+}
+.r16 {
+    border-radius: 16px;
+}
+.r20 {
+    border-radius: 20px;
+}
+.r24 {
+    border-radius: 24px;
+}
+.r32 {
+    border-radius: 32px;
+}
+.r40 {
+    border-radius: 40px;
+}
+.r50{
+    border-radius: 50px;
+}
+
+.bg-w{
+    background-color: #fff;
+}
+.bg-b{
+    background-color: #000;
+}
+.bg-main{
+    background-color: var(--main);
+}
+.bg-sub{
+    background-color: var(--sub);
+}
+.txt-w{
+    color: #fff;
+}
+.txt-b{
+    color: #000;
+}
+.txt-main{
+    color: var(--main);
+}
+.txt-sub{
+    color: var(--sub);
+}
+.btn{
+    min-width: 120px;
+    padding: 8px 16px;
+    background-color: rgba(255, 20, 145, 0);
+    color: var(--main);
+    border: 2px solid var(--main);
+    outline: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    cursor: pointer;
+    user-select: none;
+    text-align: center;
+    font-size: 18px;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+}

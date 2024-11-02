@@ -1,0 +1,93 @@
+.container{
+    background-image: url(../images/ph000.jpg);
+    background-position: center;
+    background-size: cover;
+}
+header{
+    background-color: var(--shd);
+    padding: 12px 35px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 0 10px var(--shd);
+    z-index: 99999;
+}
+header img{
+    width: 60px;
+}
+header nav{
+    display: flex;
+    gap: 10px;
+}
+header nav a{
+    color: var(--sub);
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+    padding: 8px;
+    color: #000;
+}
+header nav a::after{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 3px;
+    border-radius: 5px;
+    bottom: 0;
+    transition: linear 0.3s;
+}
+
+header nav a:hover::after{
+    width: 100%;
+    right: 0;
+}
+
+header i.fa-brands{
+    color: var(--sub);
+    font-size: 20px;
+    margin: 0 5px;
+
+}
+.card button{
+    background-color: #fff;
+    border:1px solid;
+    padding: 8px;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 18px;
+    margin-top: 5px;
+    color: rgb(133, 102, 61);
+    cursor: pointer;
+    color: burlywood;
+}
+.img-footer{
+    width: 320px;
+}
+
+footer{
+    background-color: #d5bdaf;
+}
+
+.img-footer img{
+    width: 100%;
+}
+
+footer ul{
+    width: 300px;
+    text-align: center;
+}
+
+footer ul li{
+    list-style: none;
+}
+
+footer ul li a{
+    color: var(--sub);
+    font-size: 20px;
+    line-height: 40px;
+    text-decoration: none;
+}
+
+
